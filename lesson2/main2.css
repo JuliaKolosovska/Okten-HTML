@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.main{
+    width: 320px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
